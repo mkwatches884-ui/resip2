@@ -1,0 +1,79 @@
+<!DOCTYPE HTML5>
+<html>
+<heade>
+<title>document</title>
+</head>
+<body>
+<div id="Header">
+<div class="logo">
+<img src="005409.png alt="width="200" height="200"../>
+</div>
+< div class="menu">
+<ul style="list-style-type:none;>
+<a href="">
+<li>Home</li>
+</a>
+<a href="">
+<li>About</li>
+</a>
+<a href="">
+<li>Contact</li>
+</a>
+</ul>
+</div>
+<div class="btn"
+<button type="sumit" class="sub-btn">call now</button>
+</div>
+</div>
+<div id="section">
+<div class="hero">
+</div>
+<div class="Education">
+<h2>Transforming lives through Eduction</h2>
+<p class="edu-p">join thosand who have already started their</p>
+<div class="Box">
+<div class="box1>
+<h4>75,000+</h4>
+<p>Student Trained</p>
+</div>
+<div class="box2">
+<h4>65,000+</h4>
+</div>
+<div class="box3">
+<h4>55,00+</h4>
+</div>
+<div class="box4">
+<h4>45,00</h4>
+</div>
+</div>
+</div>
+<div class="offer">
+<h2>Transforming lives through Education</h2>
+<p class "edu-p">join thosands who have already started their </p>
+<div class="Box">
+<div class="offer-box">
+<div class="offer-1"></div>
+<div class="offer-box2">
+<h3 class"offertext">Advanced IT Training</h3>
+</div>
+<div class"offer-box">
+<div class"offer-box1"></div>
+<div id= "section">
+<div class="offer">
+<div class="Box">
+<div class=
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

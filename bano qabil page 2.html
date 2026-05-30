@@ -1,0 +1,89 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bano Qabil Pakistan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif;scroll-behavior:smooth}
+body{background:#f4f7f8;color:#222}
+header{position:sticky;top:0;background:#fff;padding:18px 8%;display:flex;justify-content:space-between;align-items:center;box-shadow:0 3px 12px rgba(0,0,0,.08);z-index:1000}
+.logo{font-size:32px;font-weight:800;color:#109c8d}
+nav a{text-decoration:none;color:#333;margin:0 15px;font-weight:700;transition:.3s}
+nav a:hover{color:#109c8d}
+.hero{display:flex;align-items:center;justify-content:space-between;padding:60px 8%;min-height:90vh;background:linear-gradient(135deg,#fff,#e9f8f5)}
+.text{max-width:50%;animation:fade 1s}
+.text h1{font-size:70px;line-height:1;color:#111}
+.text h1 span{color:#109c8d}
+.text p{font-size:22px;margin:25px 0;color:#555;line-height:1.7}
+.btn,.btn2{display:inline-block;padding:15px 30px;border-radius:40px;text-decoration:none;font-weight:bold;margin-right:10px;transition:.4s}
+.btn{background:#109c8d;color:white}
+.btn2{border:2px solid #109c8d;color:#109c8d}
+.btn:hover,.btn2:hover{transform:translateY(-5px)}
+.image img{width:650px;max-width:100%;border-radius:25px;box-shadow:0 15px 35px rgba(0,0,0,.25)}
+.section{padding:80px 8%;text-align:center}
+.section h2{font-size:40px;margin-bottom:15px}
+.subtitle{color:#666;margin-bottom:35px}
+.cardwrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px}
+.card{background:white;padding:30px;border-radius:20px;box-shadow:0 6px 20px rgba(0,0,0,.08);transition:.4s}
+.card:hover{transform:translateY(-10px)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;padding:60px 8%;background:#109c8d;color:#fff;text-align:center}
+.stat h3{font-size:42px}
+.contact{background:white;border-radius:25px;padding:35px;max-width:700px;margin:auto;box-shadow:0 8px 25px rgba(0,0,0,.08)}
+input,textarea{width:100%;padding:15px;margin:10px 0;border:1px solid #ddd;border-radius:12px}
+footer{background:#111;color:white;text-align:center;padding:30px;margin-top:60px}
+@keyframes fade{from{opacity:0;transform:translateY(50px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:900px){.hero{flex-direction:column}.text{max-width:100%}.text h1{font-size:45px}.stats{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<header>
+<div class='logo'>Bano Qabil</div>
+<nav>
+<a href='#'>Home</a>
+<a href='#programs'>Programs</a>
+<a href='#contact'>Contact</a>
+<a href='#about'>About</a>
+</nav>
+</header>
+<section class='hero'>
+<div class='text'>
+<h1>Empowering <span>A New Era</span></h1>
+<p>Empowering Pakistani Youth with world-class IT education and training programs to build a brighter digital future.</p>
+<a class='btn'>Apply Now</a>
+<a class='btn2'>Explore Courses</a>
+</div>
+<div class='image'>
+<img src='bano .png'>
+</div>
+</section>
+<section class='stats'>
+<div class='stat'><h3>250K+</h3><p>Students</p></div>
+<div class='stat'><h3>50+</h3><p>Courses</p></div>
+<div class='stat'><h3>30+</h3><p>Cities</p></div>
+<div class='stat'><h3>95%</h3><p>Success Rate</p></div>
+</section>
+<section class='section' id='programs'>
+<h2>Our Programs</h2>
+<p class='subtitle'>Choose your future skill and start learning</p>
+<div class='cardwrap'>
+<div class='card'><h3>Web Development</h3><p>HTML, CSS, JS, React and full stack skills.</p></div>
+<div class='card'><h3>Graphic Design</h3><p>Professional creative and UI design training.</p></div>
+<div class='card'><h3>Artificial Intelligence</h3><p>Modern AI and future technology learning.</p></div>
+<div class='card'><h3>Freelancing</h3><p>Earn online and build digital career.</p></div>
+</div>
+</section>
+<section class='section' id='contact'>
+<h2>Contact Us</h2>
+<div class='contact'>
+<input type='text' placeholder='Enter your name'>
+<input type='email' placeholder='Enter email'>
+<textarea placeholder='Message'></textarea>
+<a class='btn'>Submit</a>
+</div>
+</section>
+<footer>© Bano Qabil Pakistan | Designed with modern UI</footer>
+</body>
+</html>
+ 

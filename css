@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Styled Page</title>
+
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: darkblue;
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        p {
+            color: darkgreen;
+            padding: 15px;
+            margin: 20px;
+            border: 2px solid black;
+        }
+
+        .special {
+            background-color: lightyellow;
+            color: darkred;
+        }
+
+        .hobby {
+            background-color: lightpink;
+            color: purple;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>My First Styled Page</h1>
+
+    <p class="special">
+        Hello! My name is Risalat. I am a student and I am learning HTML and CSS.
+        I enjoy creating webpages and learning new computer skills.
+    </p>
+
+    <p class="hobby">
+        My favorite hobby is using the internet and exploring new technology.
+        I also like chatting with friends and learning cybersecurity basics.
+    </p>
+
+</body>
+</html>

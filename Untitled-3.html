@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Introduction to HTML</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #74ebd5, #ACB6E5);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            color: #34495e;
+            margin-top: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-top: 10px;
+        }
+
+        .link-box {
+            background: #ecf0f1;
+            padding: 10px;
+            border-left: 5px solid #3498db;
+            margin-top: 10px;
+        }
+
+        a {
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #e74c3c;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            width: 180px;
+            transition: transform 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+
+        ul {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin: 5px 0;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 15px;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: #3498db;
+            color: white;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        tr:hover {
+            background: #f1f1f1;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: gray;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🌐 Introduction to HTML</h1>
+
+    <p>
+        HTML (HyperText Markup Language) is the foundation of all websites. It is used to create and structure 
+        web pages by organizing content such as headings, paragraphs, images, and links. Without HTML, 
+        websites would not exist. It works together with CSS and JavaScript to build modern, interactive, 
+        and attractive websites.
+    </p>
+
+    <div class="link-box">
+        📚 Learn more:
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+            HTML Full Guide (MDN)
+        </a>
+    </div>
+
+    <h2>HTML Logo</h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML Logo">
+
+    <h2>✨ Key Features of HTML</h2>
+    <ul>
+        <li>Easy to learn and beginner-friendly</li>
+        <li>Used to structure web pages</li>
+        <li>Supports multimedia content</li>
+        <li>Works with CSS and JavaScript</li>
+        <li>Platform independent</li>
+    </ul>
+
+    <h2>📊 Basic HTML Elements</h2>
+    <table>
+        <tr>
+            <th>Tag Name</th>
+            <th>Description</th>
+            <th>Example</th>
+        </tr>
+
+        <tr>
+            <td>&lt;h1&gt;</td>
+            <td>Main heading</td>
+            <td>&lt;h1&gt;Hello&lt;/h1&gt;</td>
+        </tr>
+
+        <tr>
+            <td>&lt;p&gt;</td>
+            <td>Paragraph</td>
+            <td>&lt;p&gt;Text&lt;/p&gt;</td>
+        </tr>
+
+        <tr>
+            <td>&lt;a&gt;</td>
+            <td>Hyperlink</td>
+            <td>&lt;a href="#"&gt;Link&lt;/a&gt;</td>
+        </tr>
+
+        <tr>
+            <td>&lt;img&gt;</td>
+            <td>Image</td>
+            <td>&lt;img src="img.jpg"&gt;</td>
+        </tr>
+
+        <tr>
+            <td>&lt;ul&gt;</td>
+            <td>Unordered List</td>
+            <td>&lt;ul&gt;&lt;li&gt;Item&lt;/li&gt;&lt;/ul&gt;</td>
+        </tr>
+
+    </table>
+
+    <footer>
+        Created by Student | HTML Assignment
+    </footer>
+
+</div>
+
+</body>
+</html>
